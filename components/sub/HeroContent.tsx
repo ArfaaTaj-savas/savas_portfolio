@@ -63,13 +63,15 @@ const HeroContent = () => {
         {/* Call-to-Action Button */}
         <motion.a
           variants={slideInFromLeft(1)}
-          href="#"
+          href="https://drive.google.com/file/d/1HDPVty8085IB7Mmp_-PIBAjepykUEzY_/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
           role="button"
-          aria-label="Learn More about me"
+          aria-label="View My Resume"
           className="py-3 px-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-center text-white font-semibold cursor-pointer rounded-lg max-w-[200px] 
           block transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
         >
-          Learn More!
+          Resume!
         </motion.a>
       </div>
 
